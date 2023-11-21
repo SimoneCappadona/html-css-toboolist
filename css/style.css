@@ -30,23 +30,26 @@ header{
 }
 
 .header-title{
-   display: inline;
+   
    vertical-align: middle;
   
-   
-   
 }
 /* button */
 
+
+.border-button{
+    background-color: white;
+    border: 2px solid white;
+
+}
 .task {
     color: white;
    background-color: #47ADF1;
    height: 40px;
    width: 110px;
-    text-align: center;
     border-radius: 10px;
     margin-top: 50px;
-    margin-left: 15%;
+    margin-left: 12%;
     border: none;
 }
 .section{
@@ -56,6 +59,49 @@ header{
    width: 110px;
    border-radius: 10px;
    border: none;
+} 
+/* main-list */
 
+.title{
+    height: 40px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 210px;
+    
+}
 
+ul{
+    list-style: none;
+}
+.list{
+    
+    font-weight: bold;
+    height: 40px;
+    width: 600px;
+    margin-left: 210px;
+}
+.checkmark{
+    font-size: smaller;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+   padding: 2px;
+   
+}
+.cross{
+    font-size: smaller;
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+}
+#blue-badge{
+    font-weight: lighter;
+    color: white;
+    background-color: #45ABEA;
+    border: 2px;
+    border-radius: 10px;
+   
+    
+     
 }
