@@ -1,6 +1,61 @@
 /* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Generics */
+body{
+    background-color: #F6F8F9;
+}
+.container{
+    border: 1px solid white;
+    background-color: white;
+    margin: 0 auto;
+ 
+}
+
+/* header*/
+header{
+    line-height: 100px;
+    
+
+}
+.header-logo{
+    vertical-align: middle;
+    height: 70px;
+    
+}
+
+.header-title{
+   display: inline;
+   vertical-align: middle;
+  
+   
+   
+}
+/* button */
+
+.task {
+    color: white;
+   background-color: #47ADF1;
+   height: 40px;
+   width: 110px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 15%;
+    border: none;
+}
+.section{
+    color: #c1c1c2;
+    background-color: white;
+    height: 40px;
+   width: 110px;
+   border-radius: 10px;
+   border: none;
+
+
 }
