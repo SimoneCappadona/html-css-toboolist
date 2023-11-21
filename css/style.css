@@ -26,6 +26,7 @@ header{
 .header-logo{
     vertical-align: middle;
     height: 70px;
+    margin-left: 1%;
     
 }
 
@@ -36,11 +37,23 @@ header{
 }
 /* button */
 
+.background-table{
+    background-color: white;
+    height: 60px;
+    width: 800px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 5%;
+    border: none;
+}
 
 .border-button{
     background-color: white;
     border: 2px solid white;
-
+    
+    
+    
 }
 .task {
     color: white;
@@ -48,25 +61,37 @@ header{
    height: 40px;
    width: 110px;
     border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 12%;
+    margin-top: 10px;
+    margin-left: 5%;
     border: none;
 }
 .section{
     color: #c1c1c2;
+    border: 2px solid #c1c1c2 ;
     background-color: white;
     height: 40px;
    width: 110px;
    border-radius: 10px;
-   border: none;
+   
 } 
 /* main-list */
+
+.background-list{
+    background-color: white;
+    height: 570px;
+    width: 800px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: none;
+}
+
 
 .title{
     height: 40px;
     width: 550px;
-    margin-top: 50px;
-    margin-left: 210px;
+    margin-top: 10px;
+    margin-left: 10%;
     
 }
 
@@ -78,22 +103,24 @@ ul{
     font-weight: bold;
     height: 40px;
     width: 600px;
-    margin-left: 210px;
+    margin-left: 10%;
 }
 .checkmark{
     font-size: smaller;
     color: green;
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 50%;
-   padding: 2px;
+   padding: 5px;
+   margin-right: 1%;
    
 }
 .cross{
     font-size: smaller;
     color: red;
-    border: 1px solid red;
+    border: 2px solid red;
     border-radius: 50%;
-    padding: 2px;
+    padding: 5px;
+    margin-right: 1%;
 }
 #blue-badge{
     font-weight: lighter;
